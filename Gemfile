@@ -61,3 +61,12 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# 自分で追加したもの
+# Use Minitest reporters for colorful output and other features
+gem "minitest-reporters"
+# Use Guard to run tests automatically
+gem "guard"
+gem "guard-minitest"
+# Beautify HTML output
+gem "htmlbeautifier"
